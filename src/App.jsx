@@ -2,6 +2,7 @@ import React from 'react'
 import About from './components/About'
 import Blogs from './components/Blogs'
 import Doctors from "./components/Doctors"
+import Footer from './components/Footer'
 import Home from './components/Home'
 import Navibar from './components/Navibar'
 import Services from './components/Services'
@@ -29,7 +30,9 @@ const App = () => {
           <Blogs />
         </div>
 
-
+        <div>
+          <Footer />
+        </div>
       </main>
     </>
   )
