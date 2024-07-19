@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './components/About'
+import Doctors from "./components/Doctors"
 import Home from './components/Home'
 import Navibar from './components/Navibar'
 import Services from './components/Services'
@@ -19,6 +20,11 @@ const App = () => {
         <div id='services'>
           <Services />
         </div>
+        <div id='doctors'>
+          < Doctors />
+        </div>
+
+
       </main>
     </>
   )
